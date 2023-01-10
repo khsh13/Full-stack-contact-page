@@ -11,6 +11,77 @@
     ></script>
   </head>
   <body>
+        
+    <!-- sidenav content -->
+    
+<div id="mySidenav" class="sidenav">
+<div>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+</div>
+<div class="navitems">
+  <a href="home.html">Home</a>
+  <a href="home.html#includeAbout">About Us</a>
+  <a href="home.html#includeGoal">Goals</a>
+  <a href="home.html#includeEvent">Events</a>
+  <a href="home.html#includeTeam">Team</a>
+  <a href="./faq.html">FAQ</a>
+
+</div>
+
+
+</div>
+<div class="navbody">
+  <div >
+    <img class="navlogo" src="img/MLSA_logo-transformed.png">
+  </div>
+  <div class="logo_name">
+    <div class="fullnav">
+   
+     
+ <ul class="fullnavul"> 
+  <!-- <li><a class="fullnavitem" style="padding-right: 50px ; font-weight: 600;" href="#">MLSA IGDTUW</a></li>                                          -->
+  <li><a class="fullnavitem"  href="#">Home</a></li>
+  <li><a class="fullnavitem" href="home.html#includeAbout">About Us</a></li>
+  <li><a class="fullnavitem" href="home.html#includeGoal">Goals</a></li>
+  <li><a class="fullnavitem" href="home.html#includeEvent">Events</a></li>
+  <li><a class="fullnavitem" href="home.html#includeTeam">Team</a></li>
+  <li><a class="fullnavitem" href="./faq.html">FAQ</a></li>
+ </ul>
+  </div>
+    <span id="navname" class="navname2" > MLSA-IGDTUW</span>
+
+   <!--  <script type="text/javascript">
+        if (window.innerWidth < 500 px) {
+            document.getElementById("navname").innerHTML="MLSA IGDTUW";
+        }
+    </script> -->
+  </div>
+<div class="navButtonbg">
+<span  id="navButton"class="navButton"  onclick="openNav()">&#9776;</span>
+</div>
+</div>
+<!--Home-->
+
+
+
+  
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById('navButton').style.visibility="hidden";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.1)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById('navButton').style.visibility="visible";
+  document.body.style.backgroundColor = "rgba(0,0,0,0)";
+}
+</script>
+   
+
+
+    <!-- sidenav content end -->
     <div class="container">
       <span class="big-circle"></span>
       <img src="img/shape.png" class="square" alt="" />
